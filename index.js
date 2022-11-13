@@ -302,7 +302,7 @@ const mark_slebew = '0@s.whatsapp.net'
 const more = String.fromCharCode(8206)
 const strip_ny = more.repeat(4001)
 var footer_nya =`𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 @${setting.ownerNumber.split("@")[0]}`
-let menu_nya = `───「 𝗚𝗨𝗥𝗔𝗕𝗢𝗧-𝗠𝗗 」────
+let menu_nya = `───「 *PUTRA-BOT* 」────
 
  ${ucapanWaktu} ${cekUser("name", sender)} 👋🏻
 
@@ -458,17 +458,17 @@ case 'grupbot':
 case 'groupbot':
 if (cekUser("id", sender) == null) return reply(mess.OnlyUser)
 reply(`*Forum Bot Whatsapp*
-https://chat.whatsapp.com/E3zewfxrc5pKE6Rzb3BuqG`)
+https://chat.whatsapp.com/E3zeytxrc5pKhfkzb3BuqG`)
 break
 case 'infoupdate':
 reply('-')
 break
 case 'script': case 'sc':
-reply(`_SCRIPT BOT INI DIJUAL_
-_HARGA 80K JIKA MINAT?_
+reply(`_JASA_
+_PASANG IKLAN_
 
 *Whatsapp Admin*
-Wa.me/6283834558105`)
+Wa.me/6287872760275`)
 break
 case 'owner':{
 if (cekUser("id", sender) == null) return reply(mess.OnlyUser)
